@@ -21,3 +21,10 @@ y se modifico lo que se iba a mostrar dentro del apartado charcater
 ** iterar objetos y array no es lo mismo ya que  al iterar objetos no necesariamente tendran un roden predeterninado 
 por lo que al señalar .map se debe tambien colocar un key y señalar la prop que se paasara para lograr esto : id , etc. 
 y sumado a esto es una buena practicxa que cada uno de los objetos cuent con un id. 
+10.- La recomendacion es realizar modulos de css para los componentes  o modulos desde el global css, sin embargo una forma rapida de agregar estilos es in line a traves de class
+**Al agregar un archivo  en automatico  este suplanta al utilizado en el routing -- se creo un archivo layout.tsx para darle un contenedor y un estilo en general a la vista de los personajes
+para que se renderice la vista  es necessario configurar *children dentro de la exportacion del componente rfce y si se trabaja con typescript es necesario pasar las props de este : {children}: {children: React.ReactNode} 
+11.- Como practica de ejemplo se creara un modulo de css que afectara al card y la pagina Characters que estara denytri de la carpoeta de dicho apartado o modulo. 
+** cuando se busca  que un estilo determinado  entre dentre de algun componente las estiquetas se declaran vacias <></>, ojo no es un paractica excelenete pero es eficiente 
+
+
