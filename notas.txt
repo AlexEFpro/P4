@@ -12,3 +12,12 @@ por lo que es necesario que se revise tanto los metodos aplicados y desde donde 
 5.- Haciendo referencia a lo anterior realizado  se devuelve solo el getCharacters devido a que en este service ya se ha declarado un respusta en json por lo que solo hay 
 que llamaro y este ya tiene dentro de este el metodo a implementar. 
 6.- Siempre que se haga fetch o se acuda a una instancia es necesario  declarar los componentes como async y dentro la data como await  
+7.- La  reacion de componentes se recomienda dentro de una carpeta al mismo nivel que app, ya que estos componentes se pueden reutilizables y crear la catrpeta dentro de app
+la metera dentro del router de next.js y se tendra que estar haciendo imoport deacuerdo al nivel lo cual complicara mas el codigo.
+8.- La creacion de interfaces a nivel componentes no se debe de sacar a una carpeta model  ya que esto solo hara mas complicado el codigo por lo que en este caso al tratarse de componentes 
+la declaracion de interfaces se realizara dentro de el componente 
+9.- Para dar estilo y representacion a cada uno de los personajes se crearon en el directorio componentes el apartado card  tal como se señalo en el punto anterior 
+y se modifico lo que se iba a mostrar dentro del apartado charcater 
+** iterar objetos y array no es lo mismo ya que  al iterar objetos no necesariamente tendran un roden predeterninado 
+por lo que al señalar .map se debe tambien colocar un key y señalar la prop que se paasara para lograr esto : id , etc. 
+y sumado a esto es una buena practicxa que cada uno de los objetos cuent con un id. 
