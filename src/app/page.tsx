@@ -16,6 +16,7 @@ async function getData(){
         <h1 className='text-white'>:{data.name}</h1>
         
       </div>
+     
     </main>
   )
 }
